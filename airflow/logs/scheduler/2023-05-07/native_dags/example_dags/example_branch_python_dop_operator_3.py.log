@@ -303,3 +303,10 @@
 [2023-05-07T22:53:07.809+0000] {logging_mixin.py:137} INFO - [2023-05-07T22:53:07.809+0000] {dag.py:2690} INFO - Sync 1 DAGs
 [2023-05-07T22:53:07.830+0000] {logging_mixin.py:137} INFO - [2023-05-07T22:53:07.829+0000] {dag.py:3437} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2023-05-07T22:52:00+00:00, run_after=2023-05-07T22:53:00+00:00
 [2023-05-07T22:53:07.870+0000] {processor.py:175} INFO - Processing /usr/local/python/3.10.4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.106 seconds
+[2023-05-07T22:53:54.217+0000] {processor.py:153} INFO - Started process (PID=25403) to work on /usr/local/python/3.10.4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-07T22:53:54.218+0000] {processor.py:743} INFO - Processing file /usr/local/python/3.10.4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2023-05-07T22:53:54.219+0000] {logging_mixin.py:137} INFO - [2023-05-07T22:53:54.219+0000] {dagbag.py:538} INFO - Filling up the DagBag from /usr/local/python/3.10.4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-07T22:53:54.241+0000] {processor.py:753} INFO - DAG(s) dict_keys(['example_branch_dop_operator_v3']) retrieved from /usr/local/python/3.10.4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-07T22:53:54.258+0000] {logging_mixin.py:137} INFO - [2023-05-07T22:53:54.258+0000] {dag.py:2690} INFO - Sync 1 DAGs
+[2023-05-07T22:53:54.279+0000] {logging_mixin.py:137} INFO - [2023-05-07T22:53:54.279+0000] {dag.py:3437} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2023-05-07T22:52:00+00:00, run_after=2023-05-07T22:53:00+00:00
+[2023-05-07T22:53:54.320+0000] {processor.py:175} INFO - Processing /usr/local/python/3.10.4/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.107 seconds
